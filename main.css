@@ -484,8 +484,7 @@ background-color: silver;
 color: black;
 
 }
-@media screen and (max-width: 767px),
-       screen and (min-width: 768px) and (max-width: 991px)
+@media screen and (min-width: 720px) and (max-width: 991px)
        
 {
     #contact
@@ -495,11 +494,17 @@ color: black;
         gap: 50px;
         padding-left: 100px;
         padding-bottom: 0;
+        
     }
     #Whatsapp
     {
         width: 50%;
-        margin-top: 10px;
+        margin-top: 5px;
+        margin-left: 100px;
+    }
+    #email
+    {
+        margin-left: 100px;
     }
 }
 footer
@@ -535,3 +540,14 @@ footer
   background: #3B5998;
   color: white;
 }
+/* @media screen and (max-width: 720px) and (min-height: 1520px)  */
+   
+
+   
+
+  
+  
+   
+
+
+
