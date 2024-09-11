@@ -93,6 +93,7 @@ main {
     box-shadow: 0 0 6px rgb(255, 255, 255, 0.5);
     border-bottom: 1px solid wheat;
     padding-top: 210px;
+    
 
 
 
@@ -243,12 +244,11 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    main {
-        flex-direction: column;
-
-
-    }
-
+   
+main 
+{
+    padding-left: 125%;
+}
     button {
         margin-top: 0;
         margin-bottom: 20px;
@@ -304,8 +304,8 @@ h3 {
 @media screen and (max-width: 1043px) {
     div {
 
+        flex-direction: column;
         display: flex;
-        flex-direction: row;
         align-items: center;
         text-align: center;
         justify-content: space-around;
@@ -332,12 +332,7 @@ h3 {
 
 
 @media screen and (max-width: 1041px) {
-    main {
-        flex-direction: column;
-
-
-
-    }
+  
 
     button {
         margin-top: 0;
